@@ -1,9 +1,10 @@
 package com.example.employee_management;  // Make sure to update this to match your package name
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotBlank;
 
 
 @Entity  // Marking this class as a JPA entity
