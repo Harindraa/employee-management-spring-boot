@@ -56,6 +56,16 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+        	<groupId>jakarta.persistence</groupId>
+        	<artifactId>jakarta.persistence-api</artifactId>
+        	<version>3.1.0</version> <!-- Update to compatible Jakarta version -->
+    	</dependency>
+		<dependency>
+        	<groupId>org.hibernate</groupId>
+        	<artifactId>hibernate-core</artifactId>
+        	<version>6.1.6.Final</version> <!-- Ensure version is compatible with Jakarta Persistence -->
+    	</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
